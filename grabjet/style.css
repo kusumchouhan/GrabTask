@@ -1,0 +1,269 @@
+/*
+Theme Name: GrabJet
+Theme URI: http://sndy.in/grabjet/
+Author: kusum chouhan
+Author URI: http://sndy.in/
+Description: Grab JET is custom theme
+Text Domain: grabjet
+*/
+
+@font-face {
+	font-family: "Sanomat-Grab-Web-Light";
+	src: url("fonts/Sanomat-Grab-Web-Light.eot");
+	src: url("fonts/Sanomat-Grab-Web-Light.eot?#iefix") format("embedded-opentype"),
+	url("fonts/Sanomat-Grab-Web-Light.woff2") format("woff2"),
+	url("fonts/Sanomat-Grab-Web-Light.woff") format("woff");
+	font-weight: bold;
+	font-style: normal;
+	font-stretch: normal;
+}
+@font-face {
+	font-family: "Sanomat-Grab-Web-Medium";
+	src: url("fonts/Sanomat-Grab-Web-Medium.eot");
+	src: url("fonts/Sanomat-Grab-Web-Medium.eot?#iefix") format("embedded-opentype"),
+	url("fonts/Sanomat-Grab-Web-Medium.woff2") format("woff2"),
+	url("fonts/Sanomat-Grab-Web-Medium.woff") format("woff");
+	font-weight: 600;
+	font-style: normal;
+	font-stretch: normal;
+	}
+	
+body {
+    font-family: "Sanomat-Grab-Web-Light";
+}
+.clear {
+    clear: both;
+}
+.site-inner {
+    position: relative;
+    background-image: url("images/bg.png");
+    /* Full height */
+    
+    height: 550px;
+    /* Center and scale the image nicely */
+    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 100%;
+}
+.site-header {
+    padding-top: 30px;
+}
+.site-header .navbar-default {
+    background-color: #33C066;
+    border: none;
+}
+.site-header .navbar-default .navbar-nav > li > a {
+    color: #fff;
+    font-size: 18px;
+		font-family: "Sanomat-Grab-Web-Medium";
+}
+.site-header .navbar-default .navbar-nav > li:hover {
+    background-color: #45d278;
+    border-radius: 3px;
+}
+.site-header .navbar-default .navbar-nav > li > a:hover {
+    color: #F8F8F8;
+}
+.site-header .navbar-default .navbar-toggle {
+    border-color: #fff;
+}
+.site-header .navbar-default .navbar-toggle .icon-bar {
+    background-color: #fff;
+}
+.site-header .navbar-default .navbar-toggle:focus,
+.navbar-default .navbar-toggle:hover {
+    background-color: transparent;
+}
+.padded-height {
+    height: 50px;
+    padding-top: 7px;
+}
+.left-border {
+    border-left: 2px solid #dedede;
+}
+.grab-search-form {
+    width: 550px;
+    margin: 18% auto;
+}
+.hide-margins {
+    margin-bottom: 0;
+    margin-top: -8px;
+}
+.grab-search-form-inner {
+    box-shadow: 0 1px 4px #888;
+    padding: 15px 0 0 0;
+    background-color: #fff;
+    border-radius: 5px;
+}
+.grab-search-form .grab-search-form-inner label {
+    color: #afb3bd;
+    font-size: 14px;
+    text-transform: uppercase;
+    border: none;
+    font-weight: normal;
+}
+.grab-search-form .no-border {
+    border: none;
+    box-shadow: none;
+    color: #333;
+    font-size: 18px;
+    text-transform: capitalize;
+    background: none;
+}
+#pick-up-box {
+    border-bottom: 1px solid #dadee8;
+    padding: 5px 43px;
+    margin-bottom: 0;
+    background-image: url("images/bluel.png");
+    background-repeat: repeat-y;
+    background-position: left 10px top;
+}
+#pick-up-box input {
+    padding: 0;
+}
+#drop-off-box {
+    padding: 5px 43px;
+    margin-bottom: 15px;
+    background-image: url("images/redl.png");
+    background-repeat: repeat-y;
+    background-position: left 11px top;
+}
+#drop-off-box input {
+    padding: 0;
+}
+.search-middle-box {
+    background-color: #f8f8f8;
+    padding: 8px 0 1px;
+    border-top: 1px solid #dadee8;
+}
+.styled-select {
+    background: url("images/arrow.png") no-repeat right center;
+    overflow: hidden;
+    background-size: 25px;
+    background-position-x: 95%;
+}
+.styled-select select {
+    background: transparent;
+    width: 120%;
+    padding: 5px 0 5px 25px;
+}
+.search-footer {
+    background-color: #33c066;
+    border-radius: 5px;
+    margin: 60px 0 10px 0;
+    padding: 15px;
+		font-family: "Sanomat-Grab-Web-Medium";
+}
+.search-footer .submit-but,
+.total_amount {
+    color: #fff;
+    font-weight: bold;
+    font-size: 20px;
+}
+.search-footer .submit-but:active,
+.search-footer .submit-but:hover,
+.search-footer .submit-but:focus {
+    background: none;
+}
+
+.content-area {
+    margin: 10px 0;
+    min-height: 300px;
+}
+.post_img img {
+    width: 75px;
+    height: 75px;
+    margin-bottom: 25px;
+}
+.post_desc {
+    color: #878b95;
+}
+.site-footer {
+    background-color: #F7F9FB;
+    border-top: 1px solid #878d9c;
+    padding: 15px 0;
+}
+.footer-primary-menu {
+    width: 100%;
+    clear: both;
+    display: table;
+}
+.footer-primary-menu li {
+    display: table-cell;
+    list-style: none;
+}
+.footer-primary-menu li a {
+    color: #565C6B;
+    text-decoration: none;
+    font-size: 18px;
+		font-family: "Sanomat-Grab-Web-Medium";
+}
+#copyright {
+    color: #8c8c8c;
+    font-size: 18px;
+}
+@-ms-viewport {
+    width: device-width;
+}
+@viewport {
+    width: device-width;
+}
+/**
+ * 14.1 - >= 710px
+ */
+
+@media only screen and (min-device-width: 20em) and (min-width: 20em) and (max-device-width: 43em) and (max-width: 43em) {
+    .custom-logo {
+        width: 170px;
+        height: 45px;
+    }
+    .site-header-main .navbar-nav {
+        background: #4ad77d none repeat scroll 0 0;
+    }
+    .grab-search-form {
+        margin: 50% auto 20%;
+        width: 90%;
+    }
+    .search-middle-box {
+        padding: 6px 0 1px;
+    }
+    .grab-search-form .no-border {
+        font-size: 15px;
+    }
+    .search-footer {
+        margin: 25px 0 10px;
+        padding: 8px;
+    }
+    .site-inner {
+        height: 400px;
+    }
+    .footer-primary-menu li a {
+        font-size: 15px;
+    }
+    #copyright {
+        font-size: 13px;
+    }
+}
+@media only screen and (min-device-width: 44.375em) and (min-width: 44.375em) and (max-device-width: 56.875em) and (max-width: 56.875em) {
+    /*** 768 **/
+    
+    .grab-search-form {
+        margin: 30% auto 15%;
+    }
+}
+/**
+ * 14.2 - >= 783px
+ */
+
+@media screen and (min-width: 48.9375em) {}
+/**
+ * 14.3 - >= 910px
+ */
+
+@media screen and (min-width: 56.875em) {} @media screen and (min-width: 61.5625em) {} @media screen and (min-width: 75em) {}
